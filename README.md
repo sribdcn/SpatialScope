@@ -1,13 +1,13 @@
 # SpatialScope
 A unified approach for integrating spatial and single-cell transcriptomics data by leveraging deep generative models
 
-![SpatialScope](https://github.com/YangLabHKUST/SpatialScope/blob/master/mainfig-flowchat.jpg)
+![SpatialScope](https://github.com/sribdcn/SpatialScope/blob/master/mainfig-flowchat.jpg)
 
 Visit our [documentation](https://spatialscope-tutorial.readthedocs.io/en/latest/) for installation, tutorials, examples and more.
 
 ## Installation
 ``` shell
-$ git clone https://github.com/YangLabHKUST/SpatialScope.git
+$ git clone https://github.com/sribdcn/SpatialScope.git
 $ cd SpatialScope
 $ conda env create -f environment.yml
 $ conda activate SpatialScope
@@ -170,7 +170,10 @@ Conveniently, we provided the pre-trained checkpoint (Ckpts_scRefs/Heart_D2/mode
 
    Answer: The minimum GPU requirement for SpatialScope is 2080 Ti. However, limited by GPU memory, we recommend impute 1000 cells at a time, more details are availabel in demo notebook [Mouse MOp (MERFISH)](https://github.com/YangLabHKUST/SpatialScope/blob/master/demos/Mouse-MOp-MERFISH.ipynb).
 
+## Citation
+
+Xiaomeng Wan#, Jiashun Xiao#, Sindy Sing Ting Tam, Mingxuan Cai, Ryohichi Sugimura, Yang Wang, Xiang Wan, Zhixiang Lin*, Angela Wu*, and Can Yang*. Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope. Nature Communications, 14:7848, 2023.
 
 ## Contact information
 
-Please contact Xiaomeng Wan (xwanaf@connect.ust.hk), Jiashun Xiao (jxiaoae@connect.ust.hk) or Prof. Can Yang (macyang@ust.hk) if any enquiry.
+Please contact Jiashun Xiao (xiaojiashun@sribd.cn) if any enquiry.
